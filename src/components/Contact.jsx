@@ -61,13 +61,13 @@ const Contact = () => {
           variants={slideIn("left", "tween", 0.2, 1)}
           className="flex-[0.75] bg-[#2d2b2b] p-6 lg:p-8 rounded-3xl"
         >
-          <h3 className={`${styles.sectionHeadText}`}>Get in Touch</h3>
-          <p className={`${styles.sectionSubText} pb-6`}>Let's build something together!</p>
+          <h3 className={`${styles.sectionHeadText} text-lg`}>Get in Touch</h3>
+          <p className={`${styles.sectionSubText} text-xl pb-6`}>Let's build something together!</p>
 
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="mt-12 flex flex-col gap-8"
+            className="mt-12 flex flex-col gap-8 text-xl lg:text-base"
           >
             <label className="flex flex-col">
               <span className="text-white font-medium pb-2">Your Name</span>
