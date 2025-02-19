@@ -25,7 +25,7 @@ const Tech = () => {
                 options={{
                   max: 45,
                   scale: 1,
-                  speed: 450,
+                  speed: 350,
                 }}
               >
                 <img

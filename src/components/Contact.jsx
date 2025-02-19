@@ -59,7 +59,7 @@ const Contact = () => {
       <div className="mt-12 flex flex-row gap-10 overflow-hidden justify-center">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] bg-[#2d2b2b] p-8 px-8 rounded-2xl"
+          className="flex-[0.75] bg-[#2d2b2b] p-8 rounded-2xl"
         >
           <h3 className={`${styles.sectionHeadText} pb-6`}>Get in Touch</h3>
 
@@ -76,7 +76,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your name?"
-                className="bg-[#1a1a1a] py-4 px-6 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
               />
             </label>
             <label className="flex flex-col">
@@ -87,7 +87,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="What's your email?"
-                className="bg-[#1a1a1a] py-4 px-6 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
               />
             </label>
             <label className="flex flex-col">
@@ -97,7 +97,7 @@ const Contact = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="What do you wnat to say?"
+                placeholder="What do you want to say?"
                 className="bg-[#1a1a1a] py-4 px-6 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
               />
             </label>
