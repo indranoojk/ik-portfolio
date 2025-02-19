@@ -56,12 +56,13 @@ const Contact = () => {
 
   return (
     <>
-      <div className="mt-12 flex flex-row gap-10 overflow-hidden justify-center">
+      <div className="mt-12 flex flex-row gap-5 overflow-hidden justify-center">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] bg-[#2d2b2b] p-8 rounded-2xl"
+          className="flex-[0.75] bg-[#2d2b2b] p-6 lg:p-8 rounded-3xl"
         >
-          <h3 className={`${styles.sectionHeadText} pb-6`}>Get in Touch</h3>
+          <h3 className={`${styles.sectionHeadText}`}>Get in Touch</h3>
+          <p className={`${styles.sectionSubText} pb-6`}>Let's build something together!</p>
 
           <form
             ref={formRef}

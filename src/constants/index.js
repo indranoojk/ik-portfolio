@@ -234,7 +234,7 @@ import {
     {
       name: "Porsche Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform which depicts the clone of a popular car company Porsche. In this Porsche clone website you can see the replica of the official website.",
       tags: [
         {
           name: "react",
@@ -255,7 +255,7 @@ import {
     {
       name: "Suryawanshi Engineers",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "It is a web-based platform built for the Suryawanshi Brothers who own a construction company. This web platform helps them to expand their construction works empire.",
       tags: [
         {
           name: "react",
@@ -276,7 +276,7 @@ import {
     {
       name: "Dermislumina",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions based on their current location.",
+        "Web application that enables users to know about thier skin and helps them we get rid of skin problems like aacne, redness, darkspots, etc.",
       tags: [
         {
           name: "react",
