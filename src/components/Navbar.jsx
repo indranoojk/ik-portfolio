@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import { li } from "framer-motion/client";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -20,6 +19,7 @@ const Navbar = () => {
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");
+            setToggle(true);
             window.scrollTo(0, 0);
           }}
         >
