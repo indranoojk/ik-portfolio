@@ -47,7 +47,7 @@ const App = () => {
           ></div>
 
           <div className="relative h-full w-full">
-            <Navbar />
+            <Navbar toggle={false} />
             <Hero />
             <About />
             <Experience />
