@@ -61,7 +61,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="mt-12 flex flex-col lg:flex lg:flex-row gap-5 overflow-hidden justify-center">
+      <div className="mt-12 pt-12 flex flex-col lg:flex lg:flex-row gap-5 overflow-hidden justify-center">
         <div className="text-center">
           <h3 className={`${styles.sectionHeadText} `}>Get in Touch</h3>
           <p className={`${styles.sectionSubText} pb-6 `}>
@@ -78,7 +78,7 @@ const Contact = () => {
             onSubmit={handleSubmit}
             className="mt-12 p-4 flex flex-col gap-8"
           >
-            <div className="px-12 lg:px-0">
+            <div className="px-8 lg:px-0">
               <label className="flex flex-col">
                 <span className="text-white font-medium pb-2">Your Name</span>
                 <input
@@ -92,7 +92,7 @@ const Contact = () => {
               </label>
             </div>
 
-            <div className="px-12 lg:px-0">
+            <div className="px-8 lg:px-0">
               <label className="flex flex-col">
                 <span className="text-white font-medium pb-2">Your Email</span>
                 <input
@@ -106,7 +106,7 @@ const Contact = () => {
               </label>
             </div>
 
-            <div className="px-12 lg:px-0">
+            <div className="px-8 lg:px-0">
               <label className="flex flex-col">
                 <span className="text-white font-medium pb-2">
                   Your Message
