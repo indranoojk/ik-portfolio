@@ -88,6 +88,7 @@ const Contact = () => {
                   onChange={handleChange}
                   placeholder="What's your name?"
                   className="lg:w-96 bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border font-medium transition duration-300 hover:border-blue-500"
+                  required
                 />
               </label>
             </div>
@@ -102,6 +103,7 @@ const Contact = () => {
                   onChange={handleChange}
                   placeholder="What's your email?"
                   className="lg:w-96 bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border font-medium transition duration-300 hover:border-blue-500"
+                  required
                 />
               </label>
             </div>
@@ -118,6 +120,7 @@ const Contact = () => {
                   onChange={handleChange}
                   placeholder="What do you want to say?"
                   className="lg:w-96 bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border font-medium transition duration-300 hover:border-blue-500"
+                  required
                 />
               </label>
             </div>

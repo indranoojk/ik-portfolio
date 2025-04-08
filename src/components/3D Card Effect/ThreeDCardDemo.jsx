@@ -47,7 +47,7 @@ const ThreeDCardDemo = () => {
                   href={item.web_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl text-xl lg:text-xs font-normal text-neutral-600 dark:text-white"
+                  className="px-4 py-2 rounded-xl text-[16px] lg:text-xs font-normal text-neutral-600 dark:text-white"
                 >
                   Explore →
                 </CardItem>
