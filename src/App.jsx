@@ -10,11 +10,11 @@ import {
   Navbar,
   Tech,
   Works,
+  ThreeDCardDemo,
 } from "./components";
 import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
 import Stars from "./components/canvas/Stars";
-import { ThreeDCardDemo } from "./components/3D Card Effect/ThreeDCardDemo";
 
 
 const App = () => {
@@ -50,7 +50,7 @@ const App = () => {
           <div className="relative h-full w-full">
             <Navbar toggle={false} />
             <Hero />
-            <About />
+            {/* <About /> */}
             <Experience />
             <Tech />
             {/* <Works /> */}

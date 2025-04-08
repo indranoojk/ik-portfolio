@@ -125,7 +125,7 @@ const Contact = () => {
             <div className="">
               <button
                 type="submit"
-                className="bg-white py-3 px-8 outline-none w-fit text-black font-bold shadow-md shadow-black rounded-xl cursor-pointer hover:bg-[#141414] hover:text-white"
+                className="float-right lg:float-none bg-white py-3 px-8 outline-none w-fit text-black font-bold shadow-md shadow-black rounded-xl cursor-pointer hover:bg-[#141414] hover:text-white"
               >
                 {loading ? "Sending..." : "Send"}
               </button>
@@ -137,4 +137,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default SectionWrapper(Contact, "contact");

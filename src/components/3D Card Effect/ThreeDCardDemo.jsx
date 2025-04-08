@@ -2,10 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CardBody, CardContainer, CardItem } from "./CardContainer";
 import { projects } from "../../constants";
+import { SectionWrapper } from "../../hoc/Index";
 import { styles } from "../../styles";
 import { fadeIn, textVariant } from "../../utils/motion";
 
-export function ThreeDCardDemo() {
+const ThreeDCardDemo = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="text-center">
@@ -46,7 +47,7 @@ export function ThreeDCardDemo() {
                   href={item.web_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl text-xs font-normal text-neutral-600 dark:text-white"
+                  className="px-4 py-2 rounded-xl text-xl lg:text-xs font-normal text-neutral-600 dark:text-white"
                 >
                   Explore →
                 </CardItem>
@@ -71,3 +72,5 @@ export function ThreeDCardDemo() {
     </>
   );
 }
+
+export default SectionWrapper(ThreeDCardDemo, "projects");

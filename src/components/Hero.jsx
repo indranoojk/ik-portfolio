@@ -75,7 +75,7 @@ const Hero = () => {
         {/* <ComputersCanvas /> */}
 
         <div className="absolute bottom-14 lg:bottom-8 w-full flex justify-center items-center">
-          <a href="#about">
+          <a href="#work">
             <div className="w-[34px] h-[64px] rounded-3xl border-4 border-slate-200 flex justify-center items-start p-2">
               <motion.dev
                 animate={{
