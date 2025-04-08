@@ -41,6 +41,7 @@ import tripguide from "./work/tripguide.png";
 import dermislumina from "./work/dermislumina.png"
 import suryawanshi from "./work/suryawanshi-engineers.png"
 import porsche from "./work/porsche.png"
+import ikstore from "./work/ikstore.png"
 
 export {
   logo,
@@ -82,4 +83,5 @@ export {
   suryawanshi,
   dermislumina,
   porsche,
+  ikstore,
 };

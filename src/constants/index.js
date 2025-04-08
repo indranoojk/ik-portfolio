@@ -27,6 +27,7 @@ import {
     suryawanshi,
     dermislumina,
     porsche,
+    ikstore,
     jobit,
     tripguide,
     threejs,
@@ -152,7 +153,7 @@ import {
     {
       title: "Frontend Developer",
       company_name: "Freelancer",
-      icon: "https://cdn.pixabay.com/photo/2015/06/27/09/03/star-823404_640.png",
+      icon: "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1280",
       iconBg: "#fff",
       date: "March 2024 - Present",
       points: [
@@ -232,6 +233,27 @@ import {
   
   const projects = [
     {
+      name: "Ecommerce Website",
+      description:
+        "Web-based platform which depicts the Ecommerce website for a clothing brand. In this Ecommerce website you can buy the products with fully ...",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ikstore,
+      web_link: "https://ikstore-frontend.vercel.app/",
+    },
+    {
       name: "Porsche Clone",
       description:
         "Web-based platform which depicts the clone of a popular car company Porsche. In this Porsche clone website you can see the replica of the official website.",
@@ -255,7 +277,7 @@ import {
     {
       name: "Suryawanshi Engineers",
       description:
-        "It is a web-based platform built for the Suryawanshi Brothers who own a construction company. This web platform helps them to expand their construction works empire.",
+        "It is a web-based platform built for the Suryawanshi Brothers who own a construction company. This web platform helps them to expand their empire.",
       tags: [
         {
           name: "react",

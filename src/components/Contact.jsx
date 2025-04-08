@@ -56,18 +56,21 @@ const Contact = () => {
 
   return (
     <>
-      <div className="mt-12 flex flex-row gap-5 overflow-hidden justify-center">
+      <div className="mt-12 flex flex-col lg:flex lg:flex-row gap-5 overflow-hidden justify-center">
+        <div className="text-center">
+          <h3 className={`${styles.sectionHeadText} `}>Get in Touch</h3>
+          <p className={`${styles.sectionSubText} pb-6 `}>Let's build something together!</p>
+          {/* <img className="hidden lg:block" src="https://images.pexels.com/photos/206901/pexels-photo-206901.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" /> */}
+          </div>
         <motion.div
-          variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] bg-[#2d2b2b] p-6 lg:p-8 rounded-3xl"
+          // variants={slideIn("left", "tween", 0.2, 1)}
+          className="w-96 flex-[0.75] p-6 lg:p-8 rounded-3xl"
         >
-          <h3 className={`${styles.sectionHeadText}`}>Get in Touch</h3>
-          <p className={`${styles.sectionSubText} pb-6`}>Let's build something together!</p>
 
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="mt-12 flex flex-col gap-8"
+            className="mt-12 p-4 flex flex-col gap-8"
           >
             <label className="flex flex-col">
               <span className="text-white font-medium pb-2">Your Name</span>
@@ -77,7 +80,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your name?"
-                className="bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
+                className="w-96 bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border font-medium transition duration-300 hover:border-blue-500"
               />
             </label>
             <label className="flex flex-col">
@@ -88,7 +91,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="What's your email?"
-                className="bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
+                className="w-96 bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border font-medium transition duration-300 hover:border-blue-500"
               />
             </label>
             <label className="flex flex-col">
@@ -99,7 +102,7 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 placeholder="What do you want to say?"
-                className="bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border-none font-medium"
+                className="w-96 bg-[#1a1a1a] py-4 px-2 placeholder:text-[#a1a1a1] text-white rounded-lg outlined-none border font-medium transition duration-300 hover:border-blue-500"
               />
             </label>
 
@@ -108,7 +111,7 @@ const Contact = () => {
                 type="submit"
                 className="bg-white py-3 px-8 outline-none w-fit text-black font-bold shadow-md shadow-black rounded-xl cursor-pointer hover:bg-[#141414] hover:text-white"
               >
-                {loading ? "Sending..." : "Send"}
+                {loading ? 'Sending...' : 'Send'}
               </button>
             </div>
           </form>

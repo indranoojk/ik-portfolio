@@ -14,6 +14,7 @@ import {
 import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
 import Stars from "./components/canvas/Stars";
+import { ThreeDCardDemo } from "./components/3D Card Effect/ThreeDCardDemo";
 
 
 const App = () => {
@@ -52,25 +53,13 @@ const App = () => {
             <About />
             <Experience />
             <Tech />
-            <Works />
-            {/* <div className="text-center pb-10">
-            <Link to="/projects">
-              <button className="bg-white text-black px-6 py-3 rounded-md hover:bg-gray-100 transition duration-300 cursor-pointer">
-                View More
-              </button>
-            </Link>
-            </div> */}
-            {/* <Feedbacks /> */}
+            {/* <Works /> */}
+            <ThreeDCardDemo />
             <Contact />
-            {/* <StarsCanvas /> */}
             <Footer />
           </div>
         </div>
 
-        {/* <Routes>
-          <Route exact path="/" element={<Stars />} />
-          <Route exact path="/projects" element={<Projects />} />
-        </Routes> */}
       </BrowserRouter>
     </>
   );
