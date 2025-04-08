@@ -12,7 +12,7 @@ export function ThreeDCardDemo() {
         <h1 className={styles.sectionHeadText}>Projects</h1>
       </motion.div>
 
-      <div className="flex flex-wrap lg:grid lg:grid-cols-2 justify-center">
+      <div className="flex flex-wrap px-8 lg:px-0 lg:grid lg:grid-cols-2 justify-center">
         {projects.map((item, index) => (
           <CardContainer key={index} className="inter-var">
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
@@ -46,7 +46,7 @@ export function ThreeDCardDemo() {
                   href={item.web_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="px-4 py-2 rounded-xl text-xs font-normal text-neutral-600 dark:text-white"
                 >
                   Explore →
                 </CardItem>
