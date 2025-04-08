@@ -31,7 +31,7 @@ export function ThreeDCardDemo() {
                 {item.description}
               </CardItem>
 
-              <CardItem translateZ={100} className="w-full mt-4 p-8">
+              <CardItem translateZ={100} className="w-full mt-4 p-2 lg:p-8">
                 <img
                   src={item.image}
                   alt={item.name}
@@ -51,7 +51,7 @@ export function ThreeDCardDemo() {
                   Explore →
                 </CardItem>
 
-                <div className="mt-4 flex flex-wrap gap-2 py-2">
+                <div className="mt-4 flex flex-col lg:flex-row lg:flex-wrap gap-2 py-2">
                   {item.tags.map((tag) => (
                     <CardItem
                       key={tag.name}
